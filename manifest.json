@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Save as PDF",
+  "version": "1.0",
+  "description": "Save the current page as a PDF file",
+  "permissions": ["activeTab", "downloads"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
